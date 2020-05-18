@@ -1,0 +1,15 @@
+<div class="todo-component">
+  TODO COMPONENT
+  <h1 class="title">TODO List</h1>
+  <p class="description">A place to store your todos</p>
+  <p class="filter">Filter your to-dos</p>
+
+  <ul class="list">
+    <li *ngFor="let todo of todos" [class.done]="todo.completed">
+      {{ todo.task }}
+    </li>
+  </ul>
+  <label for="add">Add your to-do:</label>
+  <input type="text" name="add" id="add" />
+  <button class="add-button">Add</button>
+</div>

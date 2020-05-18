@@ -1,0 +1,16 @@
+.todo-component {
+  background-color: white;
+  width: 60%;
+  margin: 0 auto;
+  font-weight: 300;
+  font-family: sans-serif;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.list {
+  list-style-type: none;
+  text-decoration: none;
+}
